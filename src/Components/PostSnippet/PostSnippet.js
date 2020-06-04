@@ -13,7 +13,7 @@ export default function PostSnippet(props) {
         adipisicing ipsum adipisicing sunt esse qui. Minim officia laboris ipsum
         excepteur reprehenderit exercitation in non commodo exercitation.
       </p>
-      <Link to={props.id}>See More</Link>
+      <Link to={`posts/${props.id}`}>See More</Link>
     </div>
   );
 }

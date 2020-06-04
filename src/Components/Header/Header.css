@@ -5,3 +5,39 @@
   justify-content: space-between;
   padding: 0px 200px;
 }
+
+.login-modal {
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30vh;
+}
+
+.login-modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+form input,
+button {
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.background-modal {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

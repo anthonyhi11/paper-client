@@ -2,6 +2,7 @@ import React from "react";
 import PostSnippet from "../../Components/PostSnippet/PostSnippet";
 
 export default function MainPage() {
+  //render the postsnippets by doing a fetch and filter out most recent three
   return (
     <div>
       <h1>Welcome to the blog...</h1>
