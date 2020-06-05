@@ -1,3 +1,23 @@
 .post-snippet-container {
   width: 60vw;
 }
+
+.admin-post-snippet {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  justify-content: space-between;
+  height: fit-content;
+  border: 1px solid black;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.admin-post-snippet div {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-post-snippet div p {
+  margin: 3px;
+}
