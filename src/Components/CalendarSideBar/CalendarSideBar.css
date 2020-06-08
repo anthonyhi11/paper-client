@@ -1,0 +1,13 @@
+.calendar__container {
+  width: 25vw;
+  min-height: 25vh;
+  height: fit-content;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar__year {
+  width: 80%;
+  height: 50px;
+}
